@@ -1,0 +1,1 @@
+<!--<script src="/js/mobile-detect.min.js" type="text/javascript"></script>-->
