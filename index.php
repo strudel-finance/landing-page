@@ -31,10 +31,10 @@
 											<div class="banner-header-title">
 												<div class="banner-main-top">
 													<span class="sub-title">Enter the Strudel</span>
-													<h1>Turn your BTC in vBTC and earn $TRDL rewards</h1>
+													<h1>Turn your BTC into vBTC and earn $TRDL rewards</h1>
 												</div>
 												<div class="banner-main-btm">
-													<p>The Strudel is the first one-way, trustless bridge linking Bitcoin and Ethereum. The bravest explorers that arrive on the other side will get extra $TRDL rewards.</p>
+													<p>Strudel is the first one-way, trustless bridge linking Bitcoin and Ethereum. The bravest explorers that arrive on the other side will get extra $TRDL rewards.</p>
 												</div>
 											</div>
 											<div class="banner-header-button">
@@ -73,8 +73,8 @@
 
 								<div class="video-blk">
 									<div class="video-wrapper">
-										<video id="video" class="videoPlayer" controls controlsList="nodownload" poster="/images/video-poster.png">
-											<source src="/media/strudel-video-v1.mp4" type="video/mp4">
+										<video id="video" class="videoPlayer" controls controlsList="nodownload" poster="media/strudel-video-v1.mp4">
+											<source src="media/strudel-video-v1.mp4" type="video/mp4">
 										</video>
 									</div>
 								</div>
@@ -105,7 +105,7 @@
 											</div>
 											<div class="banner-img-blk-txt">
 												<h3>Trustless</h3>
-												<p>BTC collateral is safely kept forever in the custody of the (Strudel) protocol. Nobody can move the underlying coins in the original chain, they can only be traded by using vBTC on the Ethereum ecosystem.</p>
+												<p>BTC collateral is safely kept forever in the custody of the Strudel protocol. Nobody can move the underlying coins in the original chain, they can only be traded by using vBTC on the Ethereum ecosystem.</p>
 											</div>
 										</div>
 									</div>
@@ -116,7 +116,7 @@
 											</div>
 											<div class="banner-img-blk-txt">
 												<h3>Capital Efficient</h3>
-												<p>The (Strudel) protocol (doesn't) need collateral to guarantee the safety of the assets bridged. For this (reason) the protocol is able to incentivize liquidity provision to sustain the peg long term.</p>
+												<p>The Strudel protocol doesn't need collateral to guarantee the safety of the assets bridged. For this reason the protocol is able to incentivize liquidity provision to sustain the peg long term.</p>
 											</div>
 										</div>
 									</div>
@@ -138,7 +138,7 @@
 											</div>
 											<div class="banner-img-blk-txt">
 												<h3>L2 Ready</h3>
-												<p>vBTC and $TRDL are ready to be ported to other (chains), unlocking BTC as collateral in all of the interchain.</p>
+												<p>vBTC and $TRDL are ready to be ported to other chains, unlocking BTC as collateral in all of the interchain.</p>
 											</div>
 										</div>
 									</div>
@@ -154,7 +154,7 @@
 							<div class="banner-blk-txt banner-txt-sm">
 								<div class="content-banner-title">
 									<span class="sub-title">Problem with bitcoin</span>
-									<h2>There is really not much you can do with a Bitcoin</h2>
+									<h2>There isn’t much you can do with a Bitcoin</h2>
 								</div>
 							</div>
 							<div class="banner-blk-txt banner-txt-lg">
@@ -169,7 +169,7 @@
 									<div class="banner-blk-img-wrap">
 										<div class="banner-img-blk">
 											<div class="banner-img-blk-txt">
-												<p>The BTC network is slow, outdated and relies on centralized services to trade with no smart contracts. Decentralized Finance allows people to be their own bank. They can gain interest on their assets, get loans and trade without having to relinquish control of their tokens.</p>
+												<p>The BTC network is slow, outdated, and relies on centralized services to trade with no smart contracts. Decentralized Finance allows people to be their own bank. They can gain interest on their assets, get loans and trade without having to relinquish control of their tokens.</p>
 											</div>
 										</div>
 									</div>
@@ -178,8 +178,6 @@
 						</div>
 					</div>
 				</div>
-
-
 				<div id="content-3" class="content-banner-wrap">
 					<div class="container">
 						<div class="content-banner">
@@ -192,9 +190,9 @@
 									<h2>Current Bitcoin wrapper protocols such as WBTC and renBTC rely on multisig setups to hold the BTC.</h2>
 								</div>
 								<div class="content-banner-txt">
-									<p>This poses a security risk because Bitcoin multisigs are capped to around a dozen signers. This means that there is a real possibility of them colluding to remove the undelying value of the wrapped BTC, causing the loss of the peg and value collapse.</p>
-									<p>The strudel protocol adresses this issue by achieving a trustless BTC wrapper. You do not have to rely on a group of people to hold the keys to the Bitcoins, because the wrapping procedure burns the BTC in order to create a vBTC which is fully compatible with the Ethereum ecosystem.</p>
-									<a class="button" target="_blank" href="https://app.zerion.io/invest/asset/UNI-V2-0x29b0aa11de97f6d5a3293d980990e820bda5fbab" title="Pitch Deck">
+									<p>This poses a security risk because Bitcoin multisigs are capped to around a dozen signers. This means that there is a real possibility of them colluding to remove the underlying value of the wrapped BTC, causing the loss of the peg and value collapse.</p>
+									<p>The strudel protocol addresses this issue by achieving a trustless BTC wrapper. You do not have to rely on a group of people to hold the keys to the Bitcoins, because the wrapping procedure burns the BTC in order to create vBTC which is fully compatible with the Ethereum ecosystem.</p>
+									<a class="button" target="_blank" href="media/strudel-finance-pitch-deck-V5.pdf" title="Pitch Deck">
 										Pitch Deck
 									</a>
 								</div>
@@ -213,7 +211,7 @@
 								</div>
 								<div class="content-banner-txt">
 									<p>By using the Strudel Dapp, Bitcoins are burned and marked with the Strudel protocol identifier. The burn transaction is then relayed to Ethereum, issuing vBTC in the exact ratio of 1:1</p>
-									<a class="button" href="https://app.zerion.io/invest/asset/UNI-V2-0xcfdcd696dde5df39f569807c6934e6ba97cebb8a" target="_blank" title="$TRDL/ETH">
+									<a class="button" href="https://app.zerion.io/invest/asset/UNI-V2-0x29b0aa11de97f6d5a3293d980990e820bda5fbab" target="_blank" title="$TRDL/ETH">
 										$TRDL/ETH LP
 									</a>
 								</div>
@@ -242,7 +240,7 @@
 										<li>$TRDL rewards are distributed per block to liquidity providers of various terra-farming pools. </li>
 									</ul>
 									<p> Terra-farming starts at block #11.021.639 with 1 $TRDL per block.</p>
-									<a class="button" target="_blank" href="https://app.zerion.io/invest/asset/UNI-V2-0x29b0aa11de97f6d5a3293d980990e820bda5fbab" title="$TRDL ETF">
+									<a class="button" target="_blank" href="https://app.zerion.io/invest/asset/UNI-V2-0xcfdcd696dde5df39f569807c6934e6ba97cebb8a" title="$TRDL ETF">
 										vBTC/ETh LP
 									</a>
 								</div>
@@ -306,7 +304,6 @@
 												</div>
 												<div class="profile-user-socials">
 													<a href="https://www.linkedin.com/in/xavier-vera-55126697/" title="LinkedIn" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-													<a href="https://twitter.com/xatoshi99" title="Twitter" target="_blank"><i class="fab fa-twitter"></i></a>
 												</div>
 											</div>
 										</div>

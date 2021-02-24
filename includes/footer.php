@@ -25,7 +25,7 @@
 				<li><a href="https://vm.tiktok.com/ZMeRBrCsJ/" target="_blank" title="TikTok"><i class="fab fa-tiktok"></i></a></li>
 				<li><a href="https://t.me/StrudelFinanceOfficial" target="_blank" title="Telegram"><i class="fab fa-telegram-plane"></i></a></li>
 				<li><a href="https://www.youtube.com/channel/UC6Znj2lAHKGjNLYrKs_SYwg" target="_blank" title="YouTube"><i class="fab fa-youtube"></i></a></li>
-				<li><a href="https://twitter.com/Strudel_finance" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+				<li><a href="https://twitter.com/theNerdLabs" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>
 				<li><a href="https://strudel-finance.medium.com/" target="_blank" title="Medium"><i class="fab fa-medium-m"></i></a></li>
 				<li><a href="https://discord.com/invite/CcEE5mC" target="_blank" title="Discord"><i class="fab fa-discord"></i></a></li>
 				<li><a href="https://github.com/strudel-finance/" target="_blank" title="Github"><i class="fab fa-github"></i></a></li>
