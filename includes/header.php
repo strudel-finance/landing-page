@@ -26,10 +26,10 @@
 							<i class="fal fa-home-lg-alt"></i>
 							<span>Go to dashboard</span>
 						</a>
-						<a class="button l-btn" href="https://app.zerion.io/invest/asset/UNI-V2-0xcfdcd696dde5df39f569807c6934e6ba97cebb8a" target="_blank" title="$TRDL">
+						<a class="button l-btn" href="https://app.uniswap.org/#/swap?inputCurrency=0x297d33e17e61c2ddd812389c2105193f8348188a" target="_blank" title="$TRDL">
 							Buy $TRDL
 						</a>
-						<a class="button" target="_blank" href="https://app.zerion.io/invest/asset/UNI-V2-0x29b0aa11de97f6d5a3293d980990e820bda5fbab" title="$vBTC">
+						<a class="button" target="_blank" href="https://app.uniswap.org/#/swap?inputCurrency=0xe1406825186d63980fd6e2ec61888f7b91c4bae4" title="$vBTC">
 							Buy $vBTC
 						</a>
 					</div>
