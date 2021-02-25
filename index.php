@@ -241,7 +241,7 @@
 									</ul>
 									<p> Terra-farming starts at block #11.021.639 with 1 $TRDL per block.</p>
 									<a class="button" target="_blank" href="https://app.zerion.io/invest/asset/UNI-V2-0xcfdcd696dde5df39f569807c6934e6ba97cebb8a" title="$TRDL ETF">
-										vBTC/ETh LP
+										vBTC/ETH LP
 									</a>
 								</div>
 							</div>
@@ -300,7 +300,7 @@
 												</div>
 												<div class="profile-user-title">
 													<div>Xavier Vera</div>
-													<span>Chief Operation Officer</span>
+													<span>Chief Operations Officer</span>
 												</div>
 												<div class="profile-user-socials">
 													<a href="https://www.linkedin.com/in/xavier-vera-55126697/" title="LinkedIn" target="_blank"><i class="fab fa-linkedin-in"></i></a>
