@@ -22,7 +22,7 @@
 				</nav>
 				<nav id="nav-right">
 					<div class="nav-buttons">
-						<a class="button btn-clean" href="" title="">
+						<a class="button btn-clean" href="https://app.strudel.finance/" target="_blank" title="">
 							<i class="fal fa-home-lg-alt"></i>
 							<span>Go to dashboard</span>
 						</a>

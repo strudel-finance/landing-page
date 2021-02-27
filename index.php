@@ -38,7 +38,7 @@
 												</div>
 											</div>
 											<div class="banner-header-button">
-												<a class="button" href="https://strudel.finance/" download>Enter the strudel</a>
+												<a class="button" target="_blank" href="https://app.strudel.finance/" download>Enter the strudel</a>
 											</div>
 										</div>
 									</div>
@@ -162,7 +162,7 @@
 									<div class="banner-blk-img-wrap">
 										<div class="banner-img-blk">
 											<div class="banner-img-blk-txt">
-												<p>For Bitcoin to participate in these protocols it needs to be wrapped into the Ethereum chain in order to be compatible. A wrapped token is really a IOU that is emmited into the Ethereum network for every BTC deposited into a wrapper protocol.</p>
+												<p>For Bitcoin to participate in these protocols it needs to be wrapped into the Ethereum chain in order to be compatible. A wrapped token is really an IOU that is emmited into the Ethereum network for every BTC deposited into a wrapper protocol.</p>
 											</div>
 										</div>
 									</div>
@@ -254,25 +254,39 @@
 						<div class="content-banner content-banner-center">
 							<div class="banner-blk-txt">
 								<div class="content-banner-title banner-title-big">
-									<h2>Our Partners</h2>
+									<span class="sub-title">Meet the Strudel</span>
+									<h2>Partners and Exchanges</h2>
 								</div>
 							</div>
 						</div>
 						<div class="content-banner-icons">
-							<div class="banner-icon-blk">
-								<div class="banner-icon-blk-icon">
-									<a href="https://nerd.finance/" title="Nerd" target="_blank" ;>
-										<img src="images/partners/nerd-logo.jpg" alt="Nerd">
+							<ul>
+								<li class="banner-icon-blk">
+									<a href="https://nerd.finance/" title="Nerd" target="_blank">
+										<img src="images/partners/logo_Nerd.svg" alt="Nerd">
 									</a>
-								</div>
-							</div>
-							<div class="banner-icon-blk">
-								<div class="banner-icon-blk-icon">
-									<a href="https://www.adventuretoken.com/" title="Adventure Token" target="_blank" ;>
-										<img src="images/partners/twa-logo.jpg" alt="Adventure Token">
+								</li>
+								<li class="banner-icon-blk">
+									<a href="https://www.adventuretoken.com/" title="Adventure Token" target="_blank">
+										<img src="images/partners/logo_TWA.svg" alt="Adventure Token">
 									</a>
-								</div>
-							</div>
+								</li>
+								<li class="banner-icon-blk">
+									<a href="https://sushi.com/" title="SushiSwap" target="_blank">
+										<img src="images/partners/logo_Sushi.svg" alt="SushiSwap">
+									</a>
+								</li>
+								<li class="banner-icon-blk">
+									<a href="https://coinmarketcap.com/" title="CoinMarketCap" target="_blank">
+										<img src="images/partners/logo_Coin.svg" alt="CoinMarketCap">
+									</a>
+								</li>
+								<li class="banner-icon-blk">
+									<a href="https://uniswap.org/" title="Uniswap" target="_blank">
+										<img src="images/partners/logo_Uni.svg" alt="Uniswap">
+									</a>
+								</li>
+							</ul>
 						</div>
 					</div>
 				</div>
