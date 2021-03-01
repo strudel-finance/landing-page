@@ -3799,8 +3799,12 @@ body.modal-open {
 	#content-banner-icons .content-banner-center {
 		margin-bottom: 24px;
 	}
+	.content-banner-icons ul {
+		flex-wrap: wrap;
+	}
 	.banner-icon-blk {
 		width: 50%;
+	    padding: 0 24px !important;
 	}
 	.banner-icon-blk-icon {
 		margin-bottom: 24px;
