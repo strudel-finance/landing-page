@@ -6,9 +6,9 @@
     <meta name="title" content="Strudel Finance" />
     <meta name="description" content="Strudel Finance" />
     <meta name="keywords" content="Strudel Finance" />
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <meta name="mobile-web-app-capable" content="yes"/>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="mobile-web-app-capable" content="yes" />
     <meta name="theme-color" content="#25252C">
     <meta name="msapplication-navbutton-color" content="#25252C">
     <meta name="apple-mobile-web-app-status-bar-style" content="#25252C">
@@ -17,25 +17,25 @@
     <link href="images/favicon.png" sizes="192x192" rel="icon" />
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="css/fontawesome-all.min.css" rel="stylesheet">
-	<link href="https://use.typekit.net/srs8ydx.css" rel="stylesheet"> 
+    <link href="https://use.typekit.net/srs8ydx.css" rel="stylesheet">
     <link href="css/stars.css" rel="stylesheet" />
     <link href="css/style.css?v2" rel="stylesheet" />
-    <script src="js/jquery-3.3.1.min.js" type="text/javascript" ></script>
+    <script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>
     <script src="js/bootstrap.min.js" type="text/javascript"></script>
     <script src="js/mobile-chrome-vh-fix.js" type="text/javascript"></script>
     <script src="js/jquery.waypoints.min.js" type="text/javascript"></script>
-	<script src="js/mobile-detect.min.js" type="text/javascript"></script>
-	<script src="js/lottie-player.js"></script>
+    <script src="js/mobile-detect.min.js" type="text/javascript"></script>
+    <script src="js/lottie-player.js"></script>
     <script src="js/scripts.js" type="text/javascript"></script>
 
     <!-- Facebook Meta Tags -->
-    <meta property="og:locale" content="en_EN"/>
-	<meta property="og:title" content="Strudel Finance"/>
-	<meta property="og:description" content=""/>
-	<meta property="og:url" content="https://strudel.finance/"/>
-	<meta property="og:image" content="images/strudel-finance-share-image.jpg">
-	<meta property="og:site_name" content='Strudel Finance'/>
-	<meta property="og:type" content="website"/>
+    <meta property="og:locale" content="en_EN" />
+    <meta property="og:title" content="Strudel Finance" />
+    <meta property="og:description" content="" />
+    <meta property="og:url" content="https://strudel.finance/" />
+    <meta property="og:image" content="images/strudel-finance-share-image.jpg">
+    <meta property="og:site_name" content='Strudel Finance' />
+    <meta property="og:type" content="website" />
 
     <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
@@ -45,22 +45,22 @@
     <meta name="twitter:description" content="">
     <meta name="twitter:image" content="images/strudel-finance-share-image.jpg">
 
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-179869676-1"></script>
-	<script>
-		function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","UA-179869676-1")
-	</script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-179869676-1"></script>
     <script>
-        $(document).ready(function($) {   
-            $('.home-wrap #content-wrapper').waypoint(function(direction) {
-                $("#navbar").toggleClass('sticky', direction=='down');
-            },{
-                offset:'160px'
+        function gtag() { dataLayer.push(arguments) } window.dataLayer = window.dataLayer || [], gtag("js", new Date), gtag("config", "UA-179869676-1")
+    </script>
+    <script>
+        $(document).ready(function ($) {
+            $('.home-wrap #content-wrapper').waypoint(function (direction) {
+                $("#navbar").toggleClass('sticky', direction == 'down');
+            }, {
+                offset: '160px'
             });
-            $('.home-wrap #main-wrapper').waypoint(function(direction) {
-                $("#navbar").toggleClass('sticky-ani', direction=='down');
-            },{
-                offset:'-100px'
-            });	
+            $('.home-wrap #main-wrapper').waypoint(function (direction) {
+                $("#navbar").toggleClass('sticky-ani', direction == 'down');
+            }, {
+                offset: '-100px'
+            });
         });
     </script>
 </head>
@@ -141,7 +141,7 @@
                                             </div>
                                             <div class="banner-header-button">
                                                 <a class="button" target="_blank" href="https://app.strudel.finance/"
-                                                    download>Enter the strudel</a>
+                                                    download>Enter the Strudel</a>
                                             </div>
                                         </div>
                                     </div>
@@ -213,6 +213,11 @@
                                         using the forces of crypto-economics to challenge the status quo of blockchain
                                         and free BTC from the grip of Wall Street.</p>
                                 </div>
+                                <a class="button"
+                                    href="https://hackmd.io/6YDdfI_0TYuxbbbNzQAX9Q"
+                                    target="_blank" title="Guide">
+                                    Go to guide
+                                </a>
                             </div>
                             <div class="banner-blk-txt banner-txt-lg">
                                 <div class="banner-img-blocks">
@@ -223,10 +228,10 @@
                                             </div>
                                             <div class="banner-img-blk-txt">
                                                 <h3>Trustless</h3>
-                                                <p>BTC collateral is safely kept forever in the custody of the Strudel
-                                                    protocol. Nobody can move the underlying coins in the original
-                                                    chain, they can only be traded by using vBTC on the Ethereum
-                                                    ecosystem.</p>
+                                                <p>
+                                                    Nobody can move the underlying BTC on the original chain. They can
+                                                    only be utilized on the Ethereum ecosystem.
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
@@ -237,9 +242,11 @@
                                             </div>
                                             <div class="banner-img-blk-txt">
                                                 <h3>Capital Efficient</h3>
-                                                <p>The Strudel protocol doesn't need collateral to guarantee the safety
+                                                <p>
+                                                    The Strudel protocol doesn't need collateral to guarantee the safety
                                                     of the assets bridged. For this reason the protocol is able to
-                                                    incentivize liquidity provision to sustain the peg long term.</p>
+                                                    incentivize liquidity provision to sustain the peg long term.
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
@@ -250,10 +257,11 @@
                                             </div>
                                             <div class="banner-img-blk-txt">
                                                 <h3>Scalable</h3>
-                                                <p>vBTC can realistically wrap a significant number of the BTC supply.
-                                                    As more BTC enter the strudel, the system value is solidified and
-                                                    the asset will trend closer to the peg price. because of token
-                                                    distribution and implementation in DeFI.</p>
+                                                <p>
+                                                    vBTC can realistically wrap a significant number of the BTC supply.
+                                                    As more BTC cross the bridge, the system value is solidified and
+                                                    assets will trend closer to the pegged price.
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
@@ -281,7 +289,7 @@
                             <div class="banner-blk-txt banner-txt-sm">
                                 <div class="content-banner-title">
                                     <span class="sub-title">Problem with bitcoin</span>
-                                    <h2>There isn’t much you can do with a Bitcoin</h2>
+                                    <h2>There isn’t much you can do with a Bitcoin.</h2>
                                 </div>
                             </div>
                             <div class="banner-blk-txt banner-txt-lg">
@@ -289,21 +297,25 @@
                                     <div class="banner-blk-img-wrap">
                                         <div class="banner-img-blk">
                                             <div class="banner-img-blk-txt">
-                                                <p>For Bitcoin to participate in these protocols it needs to be wrapped
-                                                    into the Ethereum chain in order to be compatible. A wrapped token
-                                                    is really an IOU that is emmited into the Ethereum network for every
-                                                    BTC deposited into a wrapper protocol.</p>
+                                                <p>
+                                                    For Bitcoin to participate in DeFi, it needs to be wrapped into the
+                                                    Ethereum chain to be compatible. A wrapped token is really an IOU
+                                                    that is emitted into the Ethereum network for every BTC deposited
+                                                    into a wrapper protocol.
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="banner-blk-img-wrap">
                                         <div class="banner-img-blk">
                                             <div class="banner-img-blk-txt">
-                                                <p>The BTC network is slow, outdated, and relies on centralized services
-                                                    to trade with no smart contracts. Decentralized Finance allows
-                                                    people to be their own bank. They can gain interest on their assets,
-                                                    get loans and trade without having to relinquish control of their
-                                                    tokens.</p>
+                                                <p>
+                                                    The BTC network is slow, outdated, and relies on centralized
+                                                    services to trade with no smart contracts. Decentralized Finance
+                                                    allows people to be their own bank. They can gain interest on their
+                                                    assets, lend, collateralize, trade, and more without having to
+                                                    relinquish control of their tokens.
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
@@ -325,14 +337,18 @@
                                         setups to hold the BTC.</h2>
                                 </div>
                                 <div class="content-banner-txt">
-                                    <p>This poses a security risk because Bitcoin multisigs are capped to around a dozen
-                                        signers. This means that there is a real possibility of them colluding to remove
-                                        the underlying value of the wrapped BTC, causing the loss of the peg and value
-                                        collapse.</p>
-                                    <p>The strudel protocol addresses this issue by achieving a trustless BTC wrapper.
-                                        You do not have to rely on a group of people to hold the keys to the Bitcoins,
-                                        because the wrapping procedure burns the BTC in order to create vBTC which is
-                                        fully compatible with the Ethereum ecosystem.</p>
+                                    <p>
+                                        This poses a security risk because Bitcoin multisigs are capped to around a
+                                        dozen signers. This means that there is a real possibility of them colluding to
+                                        remove the underlying value of the wrapped BTC, causing the loss of the peg and
+                                        value collapse.
+                                    </p>
+                                    <p>
+                                        The Strudel protocol addresses this issue by achieving a trustless BTC wrapper.
+                                        You do not have to rely on a group of anonymous custodians to hold the keys to
+                                        your Bitcoin. The Strudel wrapping procedure permanently locks BTC to mint vBTC,
+                                        which increases TVL and provides a fully compatible Ethereum ecosystem asset.
+                                    </p>
                                     <a class="button" target="_blank" href="media/strudel-finance-pitch-deck-V5.pdf"
                                         title="Pitch Deck">
                                         Pitch Deck
@@ -352,9 +368,11 @@
                                     <h2>Enter the Strudel</h2>
                                 </div>
                                 <div class="content-banner-txt">
-                                    <p>By using the Strudel Dapp, Bitcoins are burned and marked with the Strudel
-                                        protocol identifier. The burn transaction is then relayed to Ethereum, issuing
-                                        vBTC in the exact ratio of 1:1</p>
+                                    <p>
+                                        By using the Strudel Dapp, Bitcoin is permanently locked and marked with the
+                                        Strudel protocol identifier. The lock transaction is then relayed to Ethereum,
+                                        issuing vBTC on Ethereum in the exact ratio of 1:1.
+                                    </p>
                                     <a class="button"
                                         href="https://app.zerion.io/invest/asset/SLP-0x05cc2e064e0b48e46015ead9961f1391d74e5f83"
                                         target="_blank" title="$TRDL/ETH">
@@ -380,15 +398,22 @@
                                     <h2>The Strudel Token</h2>
                                 </div>
                                 <div class="content-banner-txt">
-                                    <p>$TRDL is the governance and reward token for the Strudel Protocol. It is created
-                                        on 2 separate occasions:</p>
+                                    <p>
+                                        $TRDL is the governance and reward token for the Strudel Protocol. It is created
+                                        on 2 separate occasions:
+                                    </p>
                                     <ul>
-                                        <li>When a user crosses BTC over the bridge, $TRDLs are minted alongside vBTC.
+                                        <li>When a user crosses BTC over the bridge, $TRDL is minted alongside vBTC,
+                                            providing extra incentive.</li>
+                                        <li>
+                                            $TRDL rewards are distributed per block to liquidity providers of various
+                                            Strudel (Terra Farm) pools.
                                         </li>
-                                        <li>$TRDL rewards are distributed per block to liquidity providers of various
-                                            terra-farming pools. </li>
                                     </ul>
-                                    <p> Terra-farming starts at block #11.021.639 with 1 $TRDL per block.</p>
+                                    <p>Terra-farming started at block #11.021.639 with 1 $TRDL per block and this reward
+                                        remains. As another incentive, the more BTC that cross the bridge, the higher
+                                        the bonus multiplier is for Terra farmers, increasing $TRDL harvests above 1
+                                        $TRDL per block temporarily.</p>
                                     <a class="button" target="_blank"
                                         href="https://app.zerion.io/invest/asset/UNI-V2-0xcfdcd696dde5df39f569807c6934e6ba97cebb8a"
                                         title="$TRDL ETF">
@@ -454,7 +479,7 @@
                             <div class="banner-blk-txt">
                                 <div class="content-banner-title">
                                     <span class="sub-title">Team Strudel</span>
-                                    <h2>Meet the Strudel team</h2>
+                                    <h2>Meet the Strudel team.</h2>
                                 </div>
                                 <div class="content-banner-txt">
                                     <p>Strudel Finance operates under the open organization principles where
@@ -617,36 +642,46 @@
                     <div class="footer-content">
                         <div class="footer-logo-main">
                             <a class="footer-logo" href="/">
-                                <img src="images/logo-footer.svg" alt="Strudel Finance"/>
+                                <img src="images/logo-footer.svg" alt="Strudel Finance" />
                             </a>
-                        </div> 
+                        </div>
                         <div class="footer-menu">
-                            <ul class="footer-menu-list">     
-                                <li><a class="n-link-1" href="#">Video</a></li> 
-                                <li><a class="n-link-2" href="#">What is Strudel</a></li> 
-                                <li><a class="n-link-3" href="#">Bitcoin</a></li> 
-                                <li><a class="n-link-4" href="#">Why Strudel</a></li> 
-                                <li><a class="n-link-5" href="#">Team</a></li> 
-                                <li><a class="n-link-6" href="#">Legal</a></li> 
-                            </ul>                
-                        </div> 
+                            <ul class="footer-menu-list">
+                                <li><a class="n-link-1" href="#">Video</a></li>
+                                <li><a class="n-link-2" href="#">What is Strudel</a></li>
+                                <li><a class="n-link-3" href="#">Bitcoin</a></li>
+                                <li><a class="n-link-4" href="#">Why Strudel</a></li>
+                                <li><a class="n-link-5" href="#">Team</a></li>
+                                <li><a class="n-link-6" href="#">Legal</a></li>
+                                <li><a class="n-link-7" href="https://hackmd.io/6YDdfI_0TYuxbbbNzQAX9Q">Guide</a></li>
+                            </ul>
+                        </div>
                     </div>
                     <div id="footer-bottom">
-            
+
                         <ul class="footer-social">
-                            <li><a href="https://www.instagram.com/strudel.finance/" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a></li>
-                            <li><a href="https://www.linkedin.com/company/strudel-finance/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a></li>
-                            <li><a href="https://vm.tiktok.com/ZMeRBrCsJ/" target="_blank" title="TikTok"><i class="fab fa-tiktok"></i></a></li>
-                            <li><a href="https://t.me/StrudelFinanceOfficial" target="_blank" title="Telegram"><i class="fab fa-telegram-plane"></i></a></li>
-                            <li><a href="https://www.youtube.com/channel/UC6Znj2lAHKGjNLYrKs_SYwg" target="_blank" title="YouTube"><i class="fab fa-youtube"></i></a></li>
-                            <li><a href="https://twitter.com/EnterTheStrudel" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="https://strudel-finance.medium.com/" target="_blank" title="Medium"><i class="fab fa-medium-m"></i></a></li>
-                            <li><a href="https://discord.com/invite/CcEE5mC" target="_blank" title="Discord"><i class="fab fa-discord"></i></a></li>
-                            <li><a href="https://github.com/strudel-finance/" target="_blank" title="Github"><i class="fab fa-github"></i></a></li>
+                            <li><a href="https://www.instagram.com/strudel.finance/" target="_blank"
+                                    title="Instagram"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="https://www.linkedin.com/company/strudel-finance/" target="_blank"
+                                    title="LinkedIn"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="https://vm.tiktok.com/ZMeRBrCsJ/" target="_blank" title="TikTok"><i
+                                        class="fab fa-tiktok"></i></a></li>
+                            <li><a href="https://t.me/StrudelFinanceOfficial" target="_blank" title="Telegram"><i
+                                        class="fab fa-telegram-plane"></i></a></li>
+                            <li><a href="https://www.youtube.com/channel/UC6Znj2lAHKGjNLYrKs_SYwg" target="_blank"
+                                    title="YouTube"><i class="fab fa-youtube"></i></a></li>
+                            <li><a href="https://twitter.com/EnterTheStrudel" target="_blank" title="Twitter"><i
+                                        class="fab fa-twitter"></i></a></li>
+                            <li><a href="https://strudel-finance.medium.com/" target="_blank" title="Medium"><i
+                                        class="fab fa-medium-m"></i></a></li>
+                            <li><a href="https://discord.com/invite/CcEE5mC" target="_blank" title="Discord"><i
+                                        class="fab fa-discord"></i></a></li>
+                            <li><a href="https://github.com/strudel-finance/" target="_blank" title="Github"><i
+                                        class="fab fa-github"></i></a></li>
                         </ul>
                     </div>
                 </div>
-            </div>            
+            </div>
         </div>
     </div>
     <!--<script src="/js/mobile-detect.min.js" type="text/javascript"></script>-->

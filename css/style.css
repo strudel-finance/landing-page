@@ -10,7 +10,7 @@
 	--main-color: #25252C;
 	--sub-color: #E59310;
 	--hover-color: #ECAF4E;
-	--shadow-color: rgba(229, 147, 16, 0.48);
+	--shadow-color: rgba(229, 147, 16, 0.24);
 	--dark-color: #111116;
 	--light-color: #e7e8e9;
 	--grey-color: #97979a;
@@ -1526,6 +1526,12 @@ input[type="radio"]:checked+.radio-cir {
 	z-index: 1;
 	background: url(../images/logo-background-2.svg) right center no-repeat;
 	background-size: cover;
+}
+
+#content-1 a.button {
+    margin-top: 48px;
+    width: max-content;
+	z-index: 9999;
 }
 
 .content-banner, .info-blocks {
