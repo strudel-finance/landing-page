@@ -1391,6 +1391,14 @@ input[type="radio"]:checked+.radio-cir {
 	overflow: hidden;
 }
 
+.guide {
+	color: var(--sub-color);
+}
+
+.guide:hover {
+	color: var(--hover-color);
+}
+
 .banner-text .banner-header-title {
 	position: relative;
 	display: inline-block;
