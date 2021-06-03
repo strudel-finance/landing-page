@@ -1389,6 +1389,7 @@ input[type="radio"]:checked+.radio-cir {
 	position: relative;
 	display: block;
 	overflow: hidden;
+	text-align: justify;
 }
 
 .guide {
