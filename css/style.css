@@ -9,7 +9,7 @@
 :root {
 	--main-color: #25252C;
 	--sub-color: #E59310;
-	--hover-color: #ECAF4E;
+	--hover-color: #da5716;
 	--shadow-color: rgba(229, 147, 16, 0.24);
 	--dark-color: #111116;
 	--light-color: #e7e8e9;
@@ -1393,11 +1393,7 @@ input[type="radio"]:checked+.radio-cir {
 }
 
 .guide {
-	color: var(--sub-color);
-}
-
-.guide:hover {
-	color: var(--hover-color);
+	color: var(--sub-color) !important;
 }
 
 .banner-text .banner-header-title {
